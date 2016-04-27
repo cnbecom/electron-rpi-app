@@ -1,0 +1,16 @@
+{
+  "name": "virtual-assistant",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "electron-rebuild": "^1.1.3",
+    "raspicam": "^0.2.13"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.4"
+  },
+  "scripts": {
+    "modprobe": "bcm2835-v4l2",
+    "start": "electron main.js"
+  }
+}
